@@ -6,7 +6,7 @@ st.set_page_config(
 )
 
 def main():
-    st.markdown("<h1 style = `text-align: center, color: green;`> Search the right image you want! </h1>", unsafe_allow_html=True)
+    st.markdown("<h1 style = `text-align: center, color: green;`> Search the image you want! </h1>", unsafe_allow_html=True)
 
     query = st.text_input("Enter your query:")
     if st.button("Search"):
