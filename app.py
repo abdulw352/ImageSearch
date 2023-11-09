@@ -6,7 +6,7 @@ st.set_page_config(
 )
 
 def main():
-    st.markdown("<h1 style = `text-align: center, color: green;`> Search the right Fashion for you! </h1>", unsafe_allow_html=True)
+    st.markdown("<h1 style = `text-align: center, color: green;`> Search the right image you want! </h1>", unsafe_allow_html=True)
 
     query = st.text_input("Enter your query:")
     if st.button("Search"):
@@ -26,7 +26,7 @@ def main():
                 st.image(results[2].content, use_column_width=True)
         
         else:
-            st.warning("Search clothes ...")
+            st.warning("Search for an image ...")
 
 
 if __name__ == "__main__":
